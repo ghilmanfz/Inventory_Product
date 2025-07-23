@@ -44,13 +44,13 @@ CREATE TABLE `tb_barang` (
 --
 
 INSERT INTO `tb_barang` (`id_barang`, `kode_barang`, `nama_barang`, `jenis_barang`, `satuan`, `stock_awal`, `umur`, `input_date`, `updater`) VALUES
-('B0001', 'TST-001', 'Kamera PTZ', 'BARANG BAGUS', '02', 1, '2024-04-02', '2024-04-02 09:10:03', 'Supriyandi'),
-('B0002', 'TST-002', 'BABYCAM', 'EX SERVICE', '02', 2, '2024-04-02', '2024-04-02 09:10:31', 'Supriyandi'),
-('B0003', 'TST-003', 'NOTEBOOK', 'BARANG BAGUS', '02', 4, '2024-04-02', '2024-04-02 09:10:55', 'Supriyandi'),
-('B0004', 'TST-004', 'TABLET', 'EX DEMO', '02', 6, '2024-04-02', '2024-04-02 09:11:20', 'Supriyandi'),
-('B0005', 'TST-005', 'UPS', 'EX SERVICE', '01', 4, '2024-04-02', '2024-04-02 09:11:46', 'Supriyandi'),
-('B0006', 'TST-006', 'MONITOR 23', 'EX SERVICE', '02', 2, '2024-04-02', '2024-04-02 09:12:04', 'Supriyandi'),
-('B0007', 'TST-007', 'MONITOR CURVE', 'RUSAK', '02', 3, '2024-04-02', '2024-04-02 09:12:23', 'Supriyandi');
+('B0001', 'TST-001', 'Kamera PTZ', 'BARANG BAGUS', '02', 1, '2024-04-02', '2024-04-02 09:10:03', 'Ghilman'),
+('B0002', 'TST-002', 'BABYCAM', 'EX SERVICE', '02', 2, '2024-04-02', '2024-04-02 09:10:31', 'Ghilman'),
+('B0003', 'TST-003', 'NOTEBOOK', 'BARANG BAGUS', '02', 4, '2024-04-02', '2024-04-02 09:10:55', 'Ghilman'),
+('B0004', 'TST-004', 'TABLET', 'EX DEMO', '02', 6, '2024-04-02', '2024-04-02 09:11:20', 'Ghilman'),
+('B0005', 'TST-005', 'UPS', 'EX SERVICE', '01', 4, '2024-04-02', '2024-04-02 09:11:46', 'Ghilman'),
+('B0006', 'TST-006', 'MONITOR 23', 'EX SERVICE', '02', 2, '2024-04-02', '2024-04-02 09:12:04', 'Ghilman'),
+('B0007', 'TST-007', 'MONITOR CURVE', 'RUSAK', '02', 3, '2024-04-02', '2024-04-02 09:12:23', 'Ghilman');
 
 -- --------------------------------------------------------
 
@@ -93,7 +93,7 @@ CREATE TABLE `tb_keluar` (
 --
 
 INSERT INTO `tb_keluar` (`id_keluar`, `tgl_keluar`, `barang_id`, `jml_keluar`, `input_date`, `updater`) VALUES
-('TK-20240527-0001', '2024-05-27', 'B0001', 2, '2024-05-27 05:09:56', 'Supriyandi');
+('TK-20240527-0001', '2024-05-27', 'B0001', 2, '2024-05-27 05:09:56', 'Ghilman');
 
 -- --------------------------------------------------------
 
@@ -115,7 +115,7 @@ CREATE TABLE `tb_masuk` (
 --
 
 INSERT INTO `tb_masuk` (`id_masuk`, `tgl_masuk`, `barang_id`, `jml_masuk`, `input_date`, `updater`) VALUES
-('TM-20240402-0001', '2024-04-02', 'B0001', 2, '2024-04-02 09:39:43', 'Supriyandi');
+('TM-20240402-0001', '2024-04-02', 'B0001', 2, '2024-04-02 09:39:43', 'Ghilman');
 
 -- --------------------------------------------------------
 
@@ -156,7 +156,7 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`user_id`, `username`, `password`, `status`, `create_Date`, `level`) VALUES
-('001', 'Supriyandi', 'fc640af9c78fb7968639aa6a6f5a6c99', 1, '2024-06-06 04:32:58', 'admin'),
+('001', 'Ghilman', 'fc640af9c78fb7968639aa6a6f5a6c99', 1, '2024-06-06 04:32:58', 'admin'),
 ('010', 'Superman', 'cc03e747a6afbbcbf8be7668acfebee5', 1, '2024-06-06 04:32:28', 'user');
 
 --
